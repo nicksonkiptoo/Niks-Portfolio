@@ -35,6 +35,7 @@ A smart irrigation system that measures soil temperature in real time and makes 
 - HTML
 - CSS
 - JavaScript
+- C programming
 
 ## Contact
 
