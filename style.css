@@ -1,0 +1,28 @@
+
+        nav {
+            text-align: center;
+            background-color:black;
+            padding: auto;
+        }
+        nav a{
+            color:white;
+            text-decoration: none;
+            margin:0 15px;
+            font-weight: bold;
+        }
+        nav a:hover{
+            color: blue;
+
+         }
+         .whatsapp-btn{
+            background-color: green;
+            color: white;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            border-color: green;
+            
+         }
+         .whatsapp-btn:hover{
+            color:blue;
+         }
