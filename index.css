@@ -7,3 +7,17 @@ html, body{
     height: 100%;
     width: 100%;
 }
+.view {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar-frame {
+    width: 250px;
+    border: none;
+}
+
+.content-frame {
+    flex-grow: 1;
+    border: none;
+}
