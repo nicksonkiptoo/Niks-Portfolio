@@ -14,27 +14,12 @@ html, body{
 }
 
 .sidebar-frame {
-    width: 250px;
+    width: 25%;
+    min-width: 90px;
     border: none;
 }
 
 .content-frame {
     flex-grow: 1;
     border: none;
-}
-@media (max-width: 768px) {
-    .view {
-        flex-direction: column;
-    }
-
-    .sidebar-frame {
-        width: 100%;
-        height: auto;
-        padding: 20px 0;
-    }
-
-    .content-frame {
-        width: 100%;
-        flex-grow: 1;
-    }
 }
