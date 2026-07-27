@@ -4,9 +4,11 @@ html, body {
 }
 
 body {
+    padding: 20px;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    box-sizing: border-box;
 }
 
 main {
