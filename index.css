@@ -21,3 +21,19 @@ html, body{
     flex-grow: 1;
     border: none;
 }
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    .sidebar {
+        width: 100%;
+        height: auto;
+        padding: 20px 0;
+    }
+
+    .content {
+        width: 100%;
+        padding: 20px;
+    }
+}
