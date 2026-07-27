@@ -8,6 +8,9 @@ html, body{
     width: 100%;
 }
 .view {
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
     display: flex;
     height: 100vh;
 }
@@ -22,17 +25,17 @@ html, body{
     border: none;
 }
 @media (max-width: 768px) {
-    .container {
+    .view {
         flex-direction: column;
     }
 
-    .sidebar {
+    .sidebar-frame {
         width: 100%;
         height: auto;
         padding: 20px 0;
     }
 
-    .content {
+    .content-frame {
         width: 100%;
         padding: 20px;
     }
