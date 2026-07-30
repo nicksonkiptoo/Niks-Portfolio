@@ -26,3 +26,13 @@ main {
 .whatsapp-btn:hover{
      color:blue;
 }
+.project-btn{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.project-btn:hover{
+    background-color: green;
+}
